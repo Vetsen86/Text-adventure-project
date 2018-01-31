@@ -80,6 +80,7 @@ $(document).ready(function () {
       enemyStatDisplay(enemy);
       if (enemy.hp <= 0) {
         $("#display-text").append("<br>You win!");
+        main.combatState = false;
       }
     }
   }
