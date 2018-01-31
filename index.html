@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Text adventure w/ better organization?</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <html>
+  <head>
+    <title>Text Adventure for Funsies!</title>
+  </head>
+  <body>
+    
+    <!-- User Interface -->
+    <div class = "title text-center">
+      <h1>TEXT ADVENTURE</h1>
+    </div>
+    <div class="grid">
+      <div class = "text-box grid-box text-center">
+        <p id="display-text"></p>
+      </div>
+      <div class = "enemy-info grid-box">
+        <p class="text-center"><strong>Enemy Info</strong></p>
+        <p id="enemyName" class="text-center, stats"></p>
+        <p id="enemyHp" class="stats"></p>
+        <p id="enemyAtk" class="stats"></p>
+      </div>
+      <div class = "user-input grid-box">
+        <form>
+          <p>Enter your action here:</p>
+          <input type="text" id="input">
+          <button type="button" id="input-btn">Do it!</button>
+        </form>
+      </div>
+      <div class = "player-stats grid-box">
+        <p class="text-center">
+          <strong>Player Stats</strong>
+        </p>
+        <p id="playerHp" class="stats"></p>
+        <p id="playerAtk" class="stats">Attack: </p>
+      </div>
+      <div class = "inventory grid-box">
+        <p class="text-center"><strong>Inventory</strong></p>
+      </div>
+    </div>
+    
+    <!-- instructions -->
+    <div class="instructions">
+      <h3 class="text-center">Instructions</h3>
+      <ul>
+        <li>Type "go" followed by a direction (north, south, east, or west) to move to a different room in the cave.</li>
+        <li>Type "repeat" to view the text for the current room you are in again.</li>
+      </ul>
+    </div>
+  </body>
+</html>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

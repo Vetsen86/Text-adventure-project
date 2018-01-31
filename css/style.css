@@ -1,0 +1,69 @@
+.title {
+  margin-top: 100px;
+}
+
+.grid {
+  display: grid;
+  width: 70%;
+  height: 400px;
+  margin: 50px auto;
+  grid-template: repeat(4, 1fr) / repeat(5, 1fr);
+  grid-gap: 2% 1%;
+}
+
+.grid-box {
+  border: 1px solid black;
+  border-radius: 1%;
+}
+
+.text-box {
+  grid-area: 1 / 1 / 4 / 5;
+}
+
+#display-text {
+  max-width: 90%;
+  margin: 20px auto;
+}
+
+.enemy-info {
+  grid-area: 2 / 5 / 3 / 6;
+}
+
+.user-input {
+  grid-area: 4 / 1 / 5 / 5;
+}
+
+.player-stats {
+  grid-area: 1 / 5 / 2 / 6;
+}
+
+.stats {
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+.inventory {
+  grid-area: 3 / 5 / 5 / 6;
+}
+
+form {
+  padding: 10px 20px;
+}
+
+#input {
+  width: 80%;
+}
+
+#input-btn {
+  margin-left: 50px;
+  width: 10%;
+}
+
+.instructions {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.instructions h3 {
+  margin-bottom: 20px;
+}
